@@ -1,0 +1,97 @@
+<section class="cb-optout{% if section.settings.has_paper_bg %} has-paper-bg{% endif %}">
+  {{ 'cb-optout.js' | asset_url | script_tag }}
+  {{ 'cb-optout.css' | asset_url | stylesheet_tag }}
+
+  <div class="page-width">
+    {%- form 'contact', id: 'OptOutForm', class: 'cb-optout-form' -%}
+      {%- if form.posted_successfully? -%}
+        <div id="optout-success">
+          <p clas="h3">Your preferences have been saved. Thank you, we’ll take care of it from here.</p>
+        </div>
+      {%- elsif form.errors -%}
+        <div class="form__message">
+          <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+            {{ 'icon-error.svg' | inline_asset_content }}
+            {{ 'templates.contact.form.error_heading' | t }}
+          </h2>
+        </div>
+        <ul class="form-status-list caption-large" role="list">
+          {%- for field in form.errors -%}
+            <li>
+              <a href="#ContactForm-{{ field }}" class="link">
+                {{ field | capitalize }} {{ form.errors.messages[field] }}
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+
+      <input type="hidden" name="form_type" value="contact" />
+      <input type="hidden" name="utf8" value="✓" />
+
+      <!-- Name -->
+      <div class="field">
+        <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[name]" value="{{ form.name | default: customer.name }}" placeholder="Your name">
+        <label class="field__label" for="ContactForm-name">Your name</label>
+      </div>
+
+      <!-- Email -->
+      <div class="field">
+        <input class="field__input" autocomplete="email" type="email" id="ContactForm-email" name="contact[email]" value="{{ form.email | default: customer.email }}" placeholder="Email address" required>
+        <label class="field__label" for="ContactForm-email">Email address</label>
+      </div>
+
+      <!-- Mailing Address -->
+      <div class="field">
+        <textarea id="optout-address" name="contact[body]" rows="3" required placeholder="Street, City, State, ZIP" class="text-area field__input">{{ form.body }}</textarea>
+        <label for="optout-address" class="field__label">Mailing Address</label>
+      </div>
+
+      <!-- Options Toggle -->
+      <fieldset>
+        <legend>Would you like to:</legend>
+        <div class="toggle">
+          <input type="radio" name="contact[optout_type]" value="Opt Out" checked id="optoutletter" />
+          <label for="optoutletter">Opt out of all future letters</label>
+          <input type="radio" name="contact[optout_type]" value="Pause Until" id="pauseletters" />
+          <label for="pauseletters">Pause until a specific date</label>
+          <input type="radio" name="contact[optout_type]" value="Screen Senders" id="screensenders" />
+          <label for="screensenders">Screen Senders</label>
+        </div>
+
+        <div class="pause-field hidden" id="pause-date-field">
+          <label for="pause-date">Pause Until</label>
+          <input type="date" id="pause-date" class="pause-date" name="contact[pause_until]">
+        </div>
+      </fieldset>
+
+      <!-- Reason -->
+      <div class="field">
+        <textarea id="optout-reason" name="contact[message]" rows="3" class="text-area field__input" placeholder="Let us know if you’d like to share more.">{{ form.message }}</textarea>
+        <label for="optout-reason" class="field__label">Reason (optional)</label>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit" class="button button--primary">Update Cardinal Delivery</button>
+    {% endform %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "CB Opt Out form",
+    "settings": [
+         {
+      "type": "checkbox",
+      "id": "has_paper_bg",
+      "label": "Paper Background",
+      "default": false
+    }
+    ],
+    "presets": [
+      {
+         "name": "CB Opt Out form"
+      }
+    ]
+  }
+{% endschema %}

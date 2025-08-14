@@ -1,0 +1,151 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "cardinal_fNjVHJ": {
+          "type": "cardinal",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "cardinal_fNjVHJ",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "has_paper_bg": false,
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "cb_multicolumn_GgW8hn": {
+      "type": "cb-multicolumn",
+      "blocks": {
+        "column_bXpBzt": {
+          "type": "column",
+          "settings": {
+            "aspect": false,
+            "title": "<strong>1. Choose a Meaningful Date<\/strong>",
+            "text": "<p>Suggested dates:<\/p><ul><li>Their loved one's birthday<\/li><li>The anniversary of their passing<\/li><li>A significant holiday they'll face without their loved one<\/li><\/ul><p>Other holidays:<\/p><ul><li>Mother's Day<\/li><li>Father's Day <\/li><li>Thanksgiving <\/li><li>Hanukkah <\/li><li>Christmas<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PYhE3G": {
+          "type": "column",
+          "settings": {
+            "aspect": false,
+            "title": "<strong>2. Craft Your Personal Message<\/strong>",
+            "text": "<p>Write a heartfelt message that offers genuine comfort. Consider:<\/p><ul><li>Sharing a specific memory of their loved one<\/li><li>Acknowledging the difficulty of particular dates or occasions<\/li><li>Offering words of encouragement without minimizing their loss<\/li><li>Letting them know you're thinking of them specifically on this day<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TcwdxX": {
+          "type": "column",
+          "settings": {
+            "aspect": false,
+            "title": "<strong>3. We Handle the Delivery<\/strong>",
+            "text": "<p>We will:<\/p><ul><li>Print your letter on quality stationery<\/li><li>Address and stamp the envelope<\/li><li>Ensure delivery through the United States Postal Service as close as possible to your chosen date<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bXpBzt",
+        "column_PYhE3G",
+        "column_TcwdxX"
+      ],
+      "name": "CB Multicolumn",
+      "settings": {
+        "make_h1": false,
+        "has_paper_bg": false,
+        "title": "How it works",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "text": "",
+        "text_position": "top",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "image_position": "top",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "new_tab": false,
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "cb_multicolumn_GgW8hn"
+  ]
+}

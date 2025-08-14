@@ -1,0 +1,13 @@
+.cb-image-banner .desktop-banner{display:none;}
+@media screen and (min-width: 768px) {
+.cb-image-banner .mobile-banner{display:none;}
+.cb-image-banner .desktop-banner{display: block;}
+}
+
+@media screen and (max-width: 650px) {
+  .h1-mob{ font-size: calc(var(--font-heading-scale) * 2.8rem);}
+  .h0-mob{font-size: calc(var(--font-heading-scale) * 4rem);}
+  .hxl-mob{font-size: calc(var(--font-heading-scale) * 5rem);}
+  .hxxl-mob{ font-size: clamp(calc(var(--font-heading-scale) * 5.6rem), 14vw, calc(var(--font-heading-scale) * 7.2rem));}
+  
+}

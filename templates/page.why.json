@@ -1,0 +1,337 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "cb_video_banner_zMb8tz": {
+      "type": "cb-video-banner",
+      "blocks": {
+        "heading_zar49b": {
+          "type": "heading",
+          "settings": {
+            "make_h1": true,
+            "heading": "Why Cardinal?",
+            "heading_size": "h1",
+            "heading_size_mob": "h1"
+          }
+        },
+        "text_MFUg6f": {
+          "type": "text",
+          "settings": {
+            "text": "Because showing up for someone in grief matters, even when you’re not sure how.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zar49b",
+        "text_MFUg6f"
+      ],
+      "settings": {
+        "has_paper_bg": true,
+        "video": "shopify:\/\/files\/videos\/12762931_1280_720_30fps (1).mp4",
+        "loop_video": true,
+        "video_size": "fixed",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "max_width": 71,
+        "desktop_content_alignment": "right",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "rich_text_VE6HhK": {
+      "type": "cb-rich-text",
+      "blocks": {
+        "text_PjEtpH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cardinal was created for the moments when you want to say <em>something,<\/em> but don’t know what to say, or when to say it. For the anniversaries, holidays, and quiet milestones that others might forget, but that still carry weight.<\/p><p>We help you send a message that says:<br\/><br\/><strong>\"I remember. I see you. You’re not alone.\"<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_PjEtpH"
+      ],
+      "settings": {
+        "has_paper_bg": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_xMViWf": {
+      "type": "cb-image-with-text",
+      "blocks": {
+        "heading_j7cDfP": {
+          "type": "heading",
+          "settings": {
+            "make_h1": false,
+            "heading": "A Letter Arrives When It’s Needed Most",
+            "heading_size": "h2"
+          }
+        },
+        "text_ymcE76": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Some days are harder than others. A loved one’s birthday. The first Mother’s Day without her. A holiday dinner with an empty chair.<\/p><p>You choose a date that matters.<br\/><br\/>You write a message from the heart.<br\/><br\/>We ink it, seal it, and make sure it gets there on time.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_FwajGc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start your letter",
+            "button_link": "shopify:\/\/products\/personalized-note",
+            "button_style_secondary": false,
+            "new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_j7cDfP",
+        "text_ymcE76",
+        "button_FwajGc"
+      ],
+      "settings": {
+        "has_paper_bg": false,
+        "has_paper_bg_content": true,
+        "has_border": false,
+        "full_width": false,
+        "maintain_aspect_ratio": false,
+        "image": "shopify:\/\/shop_images\/pexels-cup-of-couple-8015505.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cb_image_banner_EMKwhX": {
+      "type": "cb-image-banner",
+      "blocks": {
+        "heading_XFJd6p": {
+          "type": "heading",
+          "settings": {
+            "make_h1": false,
+            "heading": "Gentle. Personal. Never Anonymous.",
+            "heading_size": "h1",
+            "heading_size_mob": "h1"
+          }
+        },
+        "text_wm3nEY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every letter is:<\/p><ul><li>Written by you, not AI, not a template<\/li><li>Mailed by us, on your behalf<\/li><li>Signed with your name, never anonymous<\/li><\/ul><p>We don’t do marketing. We don’t do surprises. We just deliver meaningful words at meaningful times.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XFJd6p",
+        "text_wm3nEY"
+      ],
+      "settings": {
+        "full_width": true,
+        "has_paper_bg": false,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "box_max_width": 100,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "image_with_text_9XYz6p": {
+      "type": "cb-image-with-text",
+      "blocks": {
+        "heading_6tkbM8": {
+          "type": "heading",
+          "settings": {
+            "make_h1": false,
+            "heading": "Why the Name Cardinal?",
+            "heading_size": "h2"
+          }
+        },
+        "text_AThPYY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cardinals are often seen as messengers, a symbol of remembrance and presence after loss.<br\/><br\/>When one appears, many believe it means: <em>“Someone you love is near.”<\/em><\/p><p>We wanted a name that felt <strong>gentle<\/strong>, <strong>natural<\/strong>, and <strong>true, <\/strong>something that quietly says <em>I care<\/em>, even across distance and time.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_T8gK9D": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start your letter",
+            "button_link": "shopify:\/\/products\/personalized-note",
+            "button_style_secondary": false,
+            "new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6tkbM8",
+        "text_AThPYY",
+        "button_T8gK9D"
+      ],
+      "settings": {
+        "has_paper_bg": false,
+        "has_paper_bg_content": true,
+        "has_border": false,
+        "full_width": false,
+        "maintain_aspect_ratio": false,
+        "image": "shopify:\/\/shop_images\/pexels-chris-f-38966-4084916.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cb_multicolumn_G7m6DX": {
+      "type": "cb-multicolumn",
+      "blocks": {
+        "column_Q4b6mT": {
+          "type": "column",
+          "settings": {
+            "aspect": false,
+            "image": "shopify:\/\/shop_images\/DKL2C-LAClarge.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_q7cMpx": {
+          "type": "column",
+          "settings": {
+            "aspect": false,
+            "image": "shopify:\/\/shop_images\/with-love-stamped-wax.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UJVwUx": {
+          "type": "column",
+          "settings": {
+            "aspect": false,
+            "image": "shopify:\/\/shop_images\/pexels-katya-wolf-8715902.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_43ETJX": {
+          "type": "column",
+          "settings": {
+            "aspect": false,
+            "image": "shopify:\/\/shop_images\/pexels-chris-f-38966-24847006.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Q4b6mT",
+        "column_q7cMpx",
+        "column_UJVwUx",
+        "column_43ETJX"
+      ],
+      "custom_css": [
+        ".upper-text {text-align: center;}"
+      ],
+      "settings": {
+        "make_h1": false,
+        "has_paper_bg": false,
+        "title": "Thoughtfully Designed, From Paper to Postmark",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "text": "<p>We use high-quality stationery, natural textures, and careful formatting, not because it’s fancy, but because the message deserves it.<\/p><p>This is not just mail. It’s a moment of care, delivered with intention.<\/p>",
+        "text_position": "top",
+        "image_width": "full",
+        "image_ratio": "square",
+        "image_position": "top",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "new_tab": false,
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_wCX4Fd": {
+      "type": "cb-rich-text",
+      "blocks": {
+        "text_hKVdLQ": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Every word we send is a beacon of hope in times of sorrow.<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text_hKVdLQ"
+      ],
+      "settings": {
+        "has_paper_bg": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cb_video_banner_zMb8tz",
+    "rich_text_VE6HhK",
+    "image_with_text_xMViWf",
+    "cb_image_banner_EMKwhX",
+    "image_with_text_9XYz6p",
+    "cb_multicolumn_G7m6DX",
+    "rich_text_wCX4Fd"
+  ]
+}

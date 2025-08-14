@@ -1,0 +1,9 @@
+.cb-image-with-text .image-with-text__media.image-maintain-ratio img{object-fit:contain;}
+.cb-image-with-text .image-with-text__media.image-maintain-ratio{padding-top:4rem;}
+
+
+.cb-image-with-text.has-border  {
+border: 2px solid rgba(var(--color-link),var(--alpha-link));
+outline: 1px solid rgba(var(--color-link),var(--alpha-link));
+outline-offset: -9px;
+}

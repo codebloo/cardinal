@@ -1,0 +1,234 @@
+{
+  "sections": {
+    "cb_video_banner_LjnaNk": {
+      "type": "cb-video-banner",
+      "blocks": {
+        "heading_NyaaeT": {
+          "type": "heading",
+          "settings": {
+            "make_h1": true,
+            "heading": "Send Comfort That Arrives Right on Time",
+            "heading_size": "h1",
+            "heading_size_mob": "h1"
+          }
+        },
+        "text_fGcNAw": {
+          "type": "text",
+          "settings": {
+            "text": "Schedule heartfelt letters to arrive on the days that matter most;  anniversaries, holidays, and quiet milestones of grief.",
+            "text_style": "body"
+          }
+        },
+        "buttons_pJrTw7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Start Your Letter",
+            "button_link_1": "shopify:\/\/products\/personalized-note",
+            "button_style_secondary_1": false,
+            "button_label_2": "Received a Letter?",
+            "button_link_2": "shopify:\/\/pages\/received",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_NyaaeT",
+        "text_fGcNAw",
+        "buttons_pJrTw7"
+      ],
+      "settings": {
+        "has_paper_bg": true,
+        "video": "shopify:\/\/files\/videos\/2575219-hd_1280_720_24fps.mp4",
+        "loop_video": true,
+        "video_size": "fixed",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "max_width": 71,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "cb_multicolumn_m3ek9p": {
+      "type": "cb-multicolumn",
+      "blocks": {
+        "column_hJ6gwF": {
+          "type": "column",
+          "settings": {
+            "aspect": false,
+            "title": "Step 1",
+            "text": "<p>🗓️ <strong>Choose a Meaningful Date<\/strong><\/p><p>Birthdays, anniversaries, or difficult holidays, pick a day you know they’ll need comfort.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KPgUAr": {
+          "type": "column",
+          "settings": {
+            "aspect": false,
+            "title": "Step 2",
+            "text": "<p>✍️ <strong>Write Your Message<\/strong><\/p><p>Share a memory, a note of encouragement, or simply say “I’m thinking of you.”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BcWBBk": {
+          "type": "column",
+          "settings": {
+            "aspect": false,
+            "title": "Step 3",
+            "text": "<p>📬 <strong>We Handle the Rest<\/strong><\/p><p>We’ll hand write it on beautiful stationery and mail it in time for their important day.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_hJ6gwF",
+        "column_KPgUAr",
+        "column_BcWBBk"
+      ],
+      "settings": {
+        "make_h1": false,
+        "has_paper_bg": false,
+        "title": "How It Works",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "text": "",
+        "text_position": "top",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "image_position": "top",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Start Your Letter",
+        "button_link": "shopify:\/\/products\/personalized-note",
+        "new_tab": false,
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_w3rjfC": {
+      "type": "cb-image-with-text",
+      "blocks": {
+        "heading_CEbtjz": {
+          "type": "heading",
+          "settings": {
+            "make_h1": false,
+            "heading": "A Small Gesture. A Deep Impact.",
+            "heading_size": "h1"
+          }
+        },
+        "text_mfVXF6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Grief doesn’t follow a calendar, but some days are especially heavy. Cardinal helps you show up for someone, even when you can’t be there in person.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_PzmmM8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start Your Letter",
+            "button_link": "shopify:\/\/products\/personalized-note",
+            "button_style_secondary": false,
+            "new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CEbtjz",
+        "text_mfVXF6",
+        "button_PzmmM8"
+      ],
+      "settings": {
+        "has_paper_bg": false,
+        "has_paper_bg_content": true,
+        "has_border": false,
+        "full_width": false,
+        "maintain_aspect_ratio": false,
+        "image": "shopify:\/\/shop_images\/Cardinal_Hero.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cb_image_banner_cVWpbJ": {
+      "type": "cb-image-banner",
+      "blocks": {
+        "heading_c66tfY": {
+          "type": "heading",
+          "settings": {
+            "make_h1": false,
+            "heading": "Received a Letter from Cardinal?",
+            "heading_size": "h1",
+            "heading_size_mob": "h1"
+          }
+        },
+        "text_Q3DyCG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You’re here because someone cared enough to send support during a difficult time. Want to know more, or don’t want to receive future letters?<\/p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_3Kpb6r": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn More or Opt Out",
+            "button_link_1": "shopify:\/\/pages\/received",
+            "button_style_secondary_1": false,
+            "new_tab": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "new_tab_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_c66tfY",
+        "text_Q3DyCG",
+        "buttons_3Kpb6r"
+      ],
+      "settings": {
+        "full_width": true,
+        "has_paper_bg": true,
+        "image": "shopify:\/\/shop_images\/pexels-tirachard-kumtanom-112571-574283.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "box_max_width": 70,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "cb_video_banner_LjnaNk",
+    "cb_multicolumn_m3ek9p",
+    "image_with_text_w3rjfC",
+    "cb_image_banner_cVWpbJ"
+  ]
+}

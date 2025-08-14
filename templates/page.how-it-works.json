@@ -1,0 +1,186 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "cb_video_banner_3YDnA3": {
+      "type": "cb-video-banner",
+      "blocks": {
+        "heading_QwfKG7": {
+          "type": "heading",
+          "settings": {
+            "make_h1": true,
+            "heading": "How It Works",
+            "heading_size": "h1",
+            "heading_size_mob": "h1"
+          }
+        },
+        "text_mickra": {
+          "type": "text",
+          "settings": {
+            "text": "Cardinal helps you send comfort, support, and remembrance, exactly when it’s needed most. Whether it’s a holiday, an anniversary, or a quiet milestone, we make sure your words arrive on time and on paper.",
+            "text_style": "body"
+          }
+        },
+        "buttons_rXtMdp": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Start a Letter",
+            "button_link_1": "shopify:\/\/products\/personalized-note",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QwfKG7",
+        "text_mickra",
+        "buttons_rXtMdp"
+      ],
+      "name": "CB Video Banner",
+      "settings": {
+        "has_paper_bg": true,
+        "video": "shopify:\/\/files\/videos\/4310050-hd_1280_720_24fps.mp4",
+        "loop_video": true,
+        "video_size": "fixed",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "max_width": 71,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "multirow_ddbK8C": {
+      "type": "multirow",
+      "blocks": {
+        "row_TtnGg7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Select_a_Date.png",
+            "caption": "Step 1",
+            "heading": "Choose a Meaningful Date",
+            "text": "<p>You pick the day that matters most. It could be:<\/p><ul><li>The birthday of someone they’ve lost<\/li><li>The anniversary of their passing<\/li><li>The first Mother’s Day or Father’s Day without them<\/li><li>A holiday that might feel especially hard, like Thanksgiving, Christmas, or Hanukkah<\/li><\/ul><p>Many in our community find that these moments, often weeks or months after the funeral, are when people feel most forgotten in their grief journey.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_FX3dnF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5311__1.webp",
+            "caption": "Step 2",
+            "heading": "Write Your Message",
+            "text": "<p>You don’t have to say something perfect, you just have to say something real.<\/p><p>Use your own voice to write a short letter or note. You might:<\/p><ul><li>Share a memory of their loved one<\/li><li>Acknowledge how hard this time might be<\/li><li>Offer quiet encouragement<\/li><li>Simply say, “I’m thinking of you today.”<\/li><\/ul><p>We don’t edit or alter your words. What you write is what they receive, sealed, personal, and entirely yours.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_rhpzJr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cardinal_Hero.png",
+            "caption": "Step 3",
+            "heading": "We Take Care of the Rest",
+            "text": "<p>Once your message is written and your date is chosen, we:<\/p><ul><li>Display your message on premium stationery<\/li><li>Address and stamp the envelope<\/li><li>Ensure delivery through the United States Postal Service as close as possible to your chosen date<\/li><\/ul><p>Your name appears clearly on the letter and envelope. We never send anonymous messages, this is about real connection,  that digital communication cannot replicate.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_gPbz8h": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-majesticaljasmin-8506641.jpg",
+            "caption": "",
+            "heading": "For the Person Receiving It",
+            "text": "<p>We include a short, respectful note inside the envelope explaining what Cardinal is and who the message is from. If the recipient ever wants to <strong>pause<\/strong>, <strong>opt out<\/strong>, or <strong>screen senders<\/strong>, they can visit <a href=\"\/pages\/received\" title=\"Received\">cardinal.love\/received<\/a> to manage their preferences easily and privately.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_TtnGg7",
+        "row_FX3dnF",
+        "row_rhpzJr",
+        "row_gPbz8h"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_XnKzF7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xnXD4k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why we do it this way",
+            "heading_size": "h1"
+          }
+        },
+        "text_X9AgV6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Grief doesn’t follow a schedule. But there are days that can feel especially heavy, and it matters when someone remembers.<\/p><p>Cardinal exists to help you show up in those moments, even from a distance. It’s not about grand gestures, it’s about one envelope, one message, arriving right on time.<\/p>"
+          }
+        },
+        "button_Fn9icJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start your letter",
+            "button_link": "shopify:\/\/products\/personalized-note",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xnXD4k",
+        "text_X9AgV6",
+        "button_Fn9icJ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cb_video_banner_3YDnA3",
+    "multirow_ddbK8C",
+    "rich_text_XnKzF7"
+  ]
+}

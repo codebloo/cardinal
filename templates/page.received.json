@@ -1,0 +1,164 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "cb_video_banner_9kyigW": {
+      "type": "cb-video-banner",
+      "blocks": {
+        "heading_NWre4n": {
+          "type": "heading",
+          "settings": {
+            "make_h1": true,
+            "heading": "<em>You Received a Letter from Cardinal<\/em>",
+            "heading_size": "h0",
+            "heading_size_mob": "h3"
+          }
+        },
+        "text_H67mt3": {
+          "type": "text",
+          "settings": {
+            "text": "<em>A handwritten message, sent with care by someone who knows you<\/em>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NWre4n",
+        "text_H67mt3"
+      ],
+      "name": "CB Video Banner",
+      "settings": {
+        "has_paper_bg": true,
+        "video": "shopify:\/\/files\/videos\/4310041-hd_1280_720_24fps.mp4",
+        "loop_video": true,
+        "video_size": "fixed",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "max_width": 71,
+        "desktop_content_alignment": "right",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "image_with_text_VPeBrh": {
+      "type": "cb-image-with-text",
+      "blocks": {
+        "heading_GEkkPX": {
+          "type": "heading",
+          "settings": {
+            "make_h1": false,
+            "heading": "You’re here because someone sent you a message from the heart.",
+            "heading_size": "h2"
+          }
+        },
+        "text_9a4m8x": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cardinal is a service that helps people schedule handwritten letters to arrive on days that can be especially hard, anniversaries, holidays, birthdays, or quiet reminders of someone who’s gone.<\/p><p>This letter was sent by someone who knows you and cares about you. They chose a meaningful date and wrote the message themselves. Cardinal simply wrote it on quality stationery and mailed it on their behalf.<\/p><p>We never send anonymous letters. And we never send marketing or spam.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GEkkPX",
+        "text_9a4m8x"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "has_border": false,
+        "full_width": false,
+        "maintain_aspect_ratio": false,
+        "image": "shopify:\/\/shop_images\/pexels-enginakyurt-1820511.jpg",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_htHdYM": {
+      "type": "cb-rich-text",
+      "blocks": {
+        "heading_MWLHkF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your choice in delivery",
+            "heading_size": "h2"
+          }
+        },
+        "text_f3jLLB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We understand that you may not be ready to recieve these letters at this time, or perhaps you are receiving letters from someone you'd rather not hear from. Let us know if you'd like to pause, opt out, or even just screen for potential senders. We are here for you. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MWLHkF",
+        "text_f3jLLB"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "cb_optout_form_RR6rbh": {
+      "type": "cb-optout-form",
+      "name": "CB Opt Out form",
+      "settings": {}
+    },
+    "cb_rich_text_mpwBCx": {
+      "type": "cb-rich-text",
+      "blocks": {
+        "text_8HAt87": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cardinal exists to help people offer support, gently, personally, and only when it’s wanted. Thank you for visiting.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_8HAt87"
+      ],
+      "name": "CB Richtext",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cb_video_banner_9kyigW",
+    "image_with_text_VPeBrh",
+    "rich_text_htHdYM",
+    "cb_optout_form_RR6rbh",
+    "cb_rich_text_mpwBCx"
+  ]
+}

@@ -1,0 +1,79 @@
+.cb-video-banner strong{
+  display:inline-block;
+  position:relative;}
+.cb-video-banner strong:after{
+  background-color:var(--yellow);
+  bottom:-3px;
+  content:'';
+  display:block;
+  height:3px;
+  position:absolute;
+  width:100%;
+}
+.cb-video-banner {
+    position: relative;
+    display: flex;
+}
+
+.cb-video-banner .background-video {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+
+.cb-video-banner .banner__content{
+  padding:var(--page-margin);}
+
+
+.cb-video-banner .caption-with-letter-spacing {
+    font-size: 1.9rem;}
+
+.video-wrapper .video-desktop {
+  display: block;
+}
+.video-wrapper .video-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 749px) {
+  .video-wrapper .video-desktop {
+    display: none;
+  }
+  .video-wrapper .video-mobile {
+    display: block;
+  }
+
+    .banner:not(.banner--mobile-bottom):not(.email-signup-banner) .banner__box {
+        background: var(--gradient-background);
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+ .cb-video-banner  .banner__buttons--multiple{  
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: nowrap;
+    max-width: 100%;}
+
+  .cb-video-banner .adaptive {
+    height: auto !important;
+}
+
+
+}
+
+@media screen and (max-width: 650px) {
+  .h5-mob{ font-size: calc(var(--font-heading-scale) * 2.1rem);}
+  .h4-mob{ font-size: calc(var(--font-heading-scale) * 2.8rem);}
+  .h3-mob{font-size: calc(var(--font-heading-scale) * 4rem);}
+  .h2-mob{font-size: calc(var(--font-heading-scale) * 5rem);}
+  .h1-mob{ font-size: clamp(calc(var(--font-heading-scale) * 5.6rem), 14vw, calc(var(--font-heading-scale) * 7.2rem));}
+  
+}

@@ -1,0 +1,5 @@
+.cb-multicolumn .aspect-ratio-true .media>img {object-fit:contain;}
+
+.cb-multicolumn .title.center{margin:0 auto;}
+
+.cb-multicolumn .cb-multicolumn-text a{color:rgba(var(--color-foreground), 1);}

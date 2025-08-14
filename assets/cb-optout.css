@@ -1,0 +1,142 @@
+
+
+.cb-optout .hidden {
+  display: none;
+}
+
+.cb-optout .field {
+  margin-bottom: 1.5rem;
+}
+
+
+
+.cb-optout input[type="text"],
+.cb-optout input[type="date"],
+.cb-optout textarea {
+ 
+}
+
+.cb-optout textarea {
+  resize: vertical;
+}
+
+.cb-optout input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+
+#optout-success {
+  background-color: #F4EAE0;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+fieldset {
+  margin: 0;
+  padding: 2rem 0;
+  box-sizing: border-box;
+  display: block;
+  border: none;
+  min-width: 0;
+
+}
+fieldset legend {
+  margin: 0 ;
+  padding: 0;
+  width: 100%;
+
+  display: table;
+  font-size: 1.5rem;
+  line-height: 140%;
+  font-weight: 600;
+  color: #333;
+}
+.cb-optout .pause-field label {
+  color: #333;
+  font-size: 1.5rem;
+  line-height: 140%;
+  font-weight: 600;
+}
+.cb-optout .pause-date{
+    height: 40px;
+    padding: 9px;
+}
+fieldset legend + * {
+  clear: both;
+}
+
+body:not(:-moz-handler-blocked) fieldset {
+  display: table-cell;
+}
+
+/* TOGGLE STYLING */
+.toggle {
+  margin: 0 0 1.5rem;
+  box-sizing: border-box;
+  font-size: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.toggle input {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -9999px;
+}
+.toggle input + label {
+  margin: 0;
+  padding: 0.75rem 2rem;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  border: solid 1px #9B1C1C;
+  font-size: 1.6rem;
+  line-height: 140%;
+  font-weight: 600;
+  text-align: center;transition: border-color 0.15s ease-out, color 0.25s ease-out, background-color 0.15s ease-out, box-shadow 0.15s ease-out;
+  /* ADD THESE PROPERTIES TO SWITCH FROM AUTO WIDTH TO FULL WIDTH */
+  /*flex: 0 0 50%; display: flex; justify-content: center; align-items: center;*/
+  /* ----- */
+}
+.toggle input + label:first-of-type {
+  border-radius: 6px 0 0 6px;
+  border-right: none;
+}
+.toggle input + label:last-of-type {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
+}
+.toggle input:hover + label {
+  border-color: #213140;
+}
+.toggle input:checked + label {
+  background-color: #9B1C1C;
+  color: #FFF;
+  border-color: #9B1C1C;
+  z-index: 1;
+}
+.toggle input:focus + label {
+  outline: dotted 1px #CCC;
+  outline-offset: 0.45rem;
+}
+@media (max-width: 800px) {
+  .toggle input + label {
+    padding: 0.75rem 0.25rem;
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 800px) {
+  .cb-optout form{
+  margin:0 auto;
+  width: 60vw;}
+}

@@ -1,0 +1,164 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_HdQYrN": {
+      "type": "cb-collapsible-content",
+      "blocks": {
+        "collapsible_row_r7mfCx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is Cardinal?",
+            "icon": "heart",
+            "row_content": "<p>Cardinal is a service that lets you schedule heartfelt, handwritten letters to arrive for someone you care about, especially around hard dates like anniversaries, holidays, or birthdays of someone they’ve lost. You write the message, choose the date, and we handle the rest.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_H6K79t": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What kind of letters can I send?",
+            "icon": "heart",
+            "row_content": "<p>Our letters are meant to comfort and support people experiencing grief. You can share a memory, offer gentle encouragement, or simply let someone know you’re thinking of them. Please avoid including anything promotional, religious (unless you know the recipient’s beliefs), or inappropriate.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8Mz3A4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What dates can I choose?",
+            "icon": "heart",
+            "row_content": "<p>You can schedule your letter to arrive on any future date. Some meaningful options include:<\/p><ul><li>The birthday of their loved one<br\/><\/li><li>The anniversary of their passing<br\/><\/li><li>Holidays like Mother’s Day, Christmas, Hanukkah, etc.<br\/><\/li><li>Any other date that might be difficult<\/li><\/ul><p>We ask that you choose a date at least <strong>14 days<\/strong> in advance so we can ensure timely delivery.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FfUfkT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I send more than one letter?",
+            "icon": "heart",
+            "row_content": "<p>Yes. Each letter is created and scheduled individually, but you can return and place as many orders as you’d like,  for the same recipient or others.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pyhUaQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How will my letter be delivered?",
+            "icon": "heart",
+            "row_content": "<p>We print your message on beautiful, high-quality stationery and mail it in a stamped envelope via the United States Postal Service (USPS). Your name appears as the sender.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Y4wiEf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will the recipient know who it’s from?",
+            "icon": "heart",
+            "row_content": "<p>Yes. Your name appears clearly in the letter and on the envelope. This is not an anonymous service, Cardinal is about <em>personal connection<\/em>, not surprise or mystery.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YRKGDb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if my letter does not arrive on time?",
+            "icon": "heart",
+            "row_content": "<p>We use Forever Stamps via the United States Postal Service. While 97%+ of letters are delivered as expected, many of us have experienced that the USPS does lose letters from time to time. If you have a concern that your letter did not arrive, contact us at <a href=\"mailto:cardinalnoteshelp@gmail.com\"><span style=\"text-decoration:underline\">cardinalnoteshelp@gmail.com<\/span><\/a> and we will either send a new letter at no additional cost, or donate what you paid for your initial letter to a non-profit organization.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_epjtRU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I change or cancel a letter once it’s scheduled?",
+            "icon": "heart",
+            "row_content": "<p>If your chosen delivery date is more than 7 business days away, we may be able to edit or cancel it. Please email us at  <a href=\"mailto:cardinalnoteshelp@gmail.com\"><span style=\"text-decoration:underline\">cardinalnoteshelp@gmail.com<\/span><\/a> as soon as possible.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fn8TTM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if someone received a letter and doesn’t want it?",
+            "icon": "heart",
+            "row_content": "<p>Every envelope includes a small note explaining what Cardinal is, who sent the letter, and how to opt out of future deliveries. We never send unsolicited messages, all letters are sent by someone who cares.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_V6mXFm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this service private and secure?",
+            "icon": "heart",
+            "row_content": "<p>Yes. Your message and recipient’s address are only used to fulfill the letter you’ve requested. We never sell or share your information. You can read our full <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a> here.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_r7mfCx",
+        "collapsible_row_H6K79t",
+        "collapsible_row_8Mz3A4",
+        "collapsible_row_FfUfkT",
+        "collapsible_row_pyhUaQ",
+        "collapsible_row_Y4wiEf",
+        "collapsible_row_YRKGDb",
+        "collapsible_row_epjtRU",
+        "collapsible_row_fn8TTM",
+        "collapsible_row_V6mXFm"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "has_paper_bg": false,
+        "caption": "",
+        "heading": "Questions and Answers",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_XChxVt": {
+      "type": "cb-rich-text",
+      "blocks": {
+        "text_eFrwFL": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>In the stillness of grief, words bloom like flowers in the heart.<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text_eFrwFL"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "has_paper_bg": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_HdQYrN",
+    "rich_text_XChxVt"
+  ]
+}

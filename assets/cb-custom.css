@@ -1,0 +1,55 @@
+:root{
+  --cardinal:#850a3b;
+}
+.gift-card-options .field{margin-bottom:1.2rem;}
+
+.gift-card-options .field input{
+  height: 3.5rem;
+  padding: 0.8rem;}
+
+#delivery_date{
+  margin-bottom:1.2rem;
+  padding: 0.8rem;
+    width: 100%;
+}
+   
+
+.header__icon .svg-wrapper.icon-cart-empty {
+    width: 30px;
+    height: 30px;}
+
+.has-paper-bg{
+  background-image: url('https://cdn.shopify.com/s/files/1/0640/9319/2323/files/10367137.jpg?v=1748988325');
+  background-size: cover;
+}
+.paper-box{  
+  border-radius: 2px;
+   box-shadow: 0 0 10px 10px #FAF8F4 inset;}
+
+
+.cardinal-field-wrapper{margin-bottom:1.4rem;}
+.cardinal-field-wrapper-extra{margin-bottom:2.4rem;}
+#custom_note{padding: 1rem;}
+.char-counter{
+  bottom:-3rem;
+  position: absolute;
+  right:0;
+}
+.field--error {
+  border: 1px solid red !important;
+}
+
+.form__message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 4px;
+  
+}
+
+@media (min-width: 990px){
+.gift-card-options label.dates-label{
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
