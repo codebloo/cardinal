@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Cardinal_4.webp",
-    "logo_width": 130,
-    "favicon": "shopify:\/\/shop_images\/20250614_0032_Feather_Quill_Seal_simple_compose_01jxpnm80afxtrapd0meebww8f.png",
+    "logo": "shopify://shop_images/Cardinal_2026_Logo_1.png",
+    "logo_width": 160,
+    "favicon": "shopify://shop_images/favicon-32x32.png",
     "type_header_font": "aleo_n4",
     "heading_scale": 100,
     "type_body_font": "arvo_n4",
@@ -99,7 +108,7 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -119,7 +128,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
-    "dates": "<h2>Suggested Arrival Dates<\/h2><ul><li>Their loved one's birthday<\/li><li>The anniversary of their passing<\/li><li>A significant holiday they'll face without their loved one<\/li><li>Mother's Day (May 11, 2025)<\/li><li>Father's Day (June 15, 2025)<\/li><li>Thanksgiving (Nov 27, 2025)<\/li><li>Hanukkah (Dec 14 - Dec 22, 2025)<\/li><li>Christmas (Dec 25, 2025) <\/li><\/ul>",
+    "dates": "<h2>Suggested Arrival Dates</h2><ul><li>Their loved one's birthday</li><li>The anniversary of their passing</li><li>A significant holiday they'll face without their loved one</li><li>Mother's Day (May 11, 2025)</li><li>Father's Day (June 15, 2025)</li><li>Thanksgiving (Nov 27, 2025)</li><li>Hanukkah (Dec 14 - Dec 22, 2025)</li><li>Christmas (Dec 25, 2025) </li></ul>",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -349,7 +358,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
