@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -15,7 +24,7 @@
           "type": "heading",
           "settings": {
             "make_h1": true,
-            "heading": "<em>You Received a Letter from Cardinal<\/em>",
+            "heading": "<em>Receiving Notes from Cardinal</em>",
             "heading_size": "h0",
             "heading_size_mob": "h3"
           }
@@ -23,7 +32,7 @@
         "text_H67mt3": {
           "type": "text",
           "settings": {
-            "text": "<em>A handwritten message, sent with care by someone who knows you<\/em>",
+            "text": "<em>A handwritten message, sent with care by someone who knows you</em>",
             "text_style": "body"
           }
         }
@@ -35,7 +44,7 @@
       "name": "CB Video Banner",
       "settings": {
         "has_paper_bg": true,
-        "video": "shopify:\/\/files\/videos\/4310041-hd_1280_720_24fps.mp4",
+        "video": "shopify://files/videos/4310041-hd_1280_720_24fps.mp4",
         "loop_video": true,
         "video_size": "fixed",
         "image_overlay_opacity": 20,
@@ -57,14 +66,14 @@
           "type": "heading",
           "settings": {
             "make_h1": false,
-            "heading": "You’re here because someone sent you a message from the heart.",
+            "heading": "What is Cardinal?",
             "heading_size": "h2"
           }
         },
         "text_9a4m8x": {
           "type": "text",
           "settings": {
-            "text": "<p>Cardinal is a service that helps people schedule handwritten letters to arrive on days that can be especially hard, anniversaries, holidays, birthdays, or quiet reminders of someone who’s gone.<\/p><p>This letter was sent by someone who knows you and cares about you. They chose a meaningful date and wrote the message themselves. Cardinal simply wrote it on quality stationery and mailed it on their behalf.<\/p><p>We never send anonymous letters. And we never send marketing or spam.<\/p>",
+            "text": "<p>Cardinal is a service that helps people schedule handwritten letters to arrive on days that can be especially hard, anniversaries, holidays, birthdays, or quiet reminders of someone who’s gone.</p><p>Letters are sent by people who know you or knew your loved one. They chose a meaningful date and wrote the message themselves. Cardinal simply wrote it on quality stationery and mailed it on their behalf.</p><p>We never send anonymous letters. And we never send marketing or spam.</p>",
             "text_style": "body"
           }
         }
@@ -75,10 +84,12 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "has_paper_bg": false,
+        "has_paper_bg_content": false,
         "has_border": false,
         "full_width": false,
         "maintain_aspect_ratio": false,
-        "image": "shopify:\/\/shop_images\/pexels-enginakyurt-1820511.jpg",
+        "image": "shopify://shop_images/pexels-enginakyurt-1820511.jpg",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -106,7 +117,7 @@
         "text_f3jLLB": {
           "type": "text",
           "settings": {
-            "text": "<p>We understand that you may not be ready to recieve these letters at this time, or perhaps you are receiving letters from someone you'd rather not hear from. Let us know if you'd like to pause, opt out, or even just screen for potential senders. We are here for you. <\/p>"
+            "text": "<p>We understand that you may not be ready to recieve these letters at this time, or perhaps you are receiving letters from someone you'd rather not hear from. Let us know if you'd like to pause, opt out, or even just screen for potential senders. We are here for you. </p>"
           }
         }
       },
@@ -116,6 +127,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
+        "has_paper_bg": false,
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -127,7 +139,9 @@
     "cb_optout_form_RR6rbh": {
       "type": "cb-optout-form",
       "name": "CB Opt Out form",
-      "settings": {}
+      "settings": {
+        "has_paper_bg": false
+      }
     },
     "cb_rich_text_mpwBCx": {
       "type": "cb-rich-text",
@@ -135,7 +149,7 @@
         "text_8HAt87": {
           "type": "text",
           "settings": {
-            "text": "<p>Cardinal exists to help people offer support, gently, personally, and only when it’s wanted. Thank you for visiting.<\/p>"
+            "text": "<p>Cardinal exists to help people offer support, gently, personally, and only when it’s wanted. Thank you for visiting.</p>"
           }
         }
       },
@@ -144,6 +158,7 @@
       ],
       "name": "CB Richtext",
       "settings": {
+        "has_paper_bg": false,
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
