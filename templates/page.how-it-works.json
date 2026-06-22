@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -31,7 +40,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Start a Letter",
-            "button_link_1": "shopify:\/\/products\/personalized-note",
+            "button_link_1": "shopify://products/personalized-note",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -47,7 +56,7 @@
       "name": "CB Video Banner",
       "settings": {
         "has_paper_bg": true,
-        "video": "shopify:\/\/files\/videos\/4310050-hd_1280_720_24fps.mp4",
+        "video": "shopify://files/videos/4310050-hd_1280_720_24fps.mp4",
         "loop_video": true,
         "video_size": "fixed",
         "image_overlay_opacity": 0,
@@ -68,10 +77,10 @@
         "row_TtnGg7": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Select_a_Date.png",
+            "image": "shopify://shop_images/Select_a_Date.png",
             "caption": "Step 1",
             "heading": "Choose a Meaningful Date",
-            "text": "<p>You pick the day that matters most. It could be:<\/p><ul><li>The birthday of someone they’ve lost<\/li><li>The anniversary of their passing<\/li><li>The first Mother’s Day or Father’s Day without them<\/li><li>A holiday that might feel especially hard, like Thanksgiving, Christmas, or Hanukkah<\/li><\/ul><p>Many in our community find that these moments, often weeks or months after the funeral, are when people feel most forgotten in their grief journey.<\/p>",
+            "text": "<p>You pick the day that matters most. It could be:</p><ul><li>The birthday of someone they’ve lost</li><li>The anniversary of their passing</li><li>The first Mother’s Day or Father’s Day without them</li><li>A holiday that might feel especially hard, like Thanksgiving, Christmas, or Hanukkah</li></ul><p>Many in our community find that these moments, often weeks or months after the funeral, are when people feel most forgotten in their grief journey.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -79,10 +88,10 @@
         "row_FX3dnF": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_5311__1.webp",
+            "image": "shopify://shop_images/pexels-angela-roma-7318931.jpg",
             "caption": "Step 2",
             "heading": "Write Your Message",
-            "text": "<p>You don’t have to say something perfect, you just have to say something real.<\/p><p>Use your own voice to write a short letter or note. You might:<\/p><ul><li>Share a memory of their loved one<\/li><li>Acknowledge how hard this time might be<\/li><li>Offer quiet encouragement<\/li><li>Simply say, “I’m thinking of you today.”<\/li><\/ul><p>We don’t edit or alter your words. What you write is what they receive, sealed, personal, and entirely yours.<\/p>",
+            "text": "<p>You don’t have to say something perfect, you just have to say something real.</p><p>Use your own voice to write a short letter or note. You might:</p><ul><li>Share a memory of their loved one</li><li>Acknowledge how hard this time might be</li><li>Offer quiet encouragement</li><li>Simply say, “I’m thinking of you today.”</li></ul><p>We don’t edit or alter your words. What you write is what they receive, sealed, personal, and entirely yours.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -90,10 +99,10 @@
         "row_rhpzJr": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cardinal_Hero.png",
+            "image": "shopify://shop_images/Cardinal_Hero.png",
             "caption": "Step 3",
             "heading": "We Take Care of the Rest",
-            "text": "<p>Once your message is written and your date is chosen, we:<\/p><ul><li>Display your message on premium stationery<\/li><li>Address and stamp the envelope<\/li><li>Ensure delivery through the United States Postal Service as close as possible to your chosen date<\/li><\/ul><p>Your name appears clearly on the letter and envelope. We never send anonymous messages, this is about real connection,  that digital communication cannot replicate.<\/p>",
+            "text": "<p>Once your message is written and your date is chosen, we:</p><ul><li>Display your message on premium stationery</li><li>Address and stamp the envelope</li><li>Ensure delivery through the United States Postal Service as close as possible to your chosen date</li></ul><p>Your name appears clearly on the letter and envelope. We never send anonymous messages, this is about real connection,  that digital communication cannot replicate.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -101,10 +110,10 @@
         "row_gPbz8h": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-majesticaljasmin-8506641.jpg",
+            "image": "shopify://shop_images/pexels-majesticaljasmin-8506641.jpg",
             "caption": "",
             "heading": "For the Person Receiving It",
-            "text": "<p>We include a short, respectful note inside the envelope explaining what Cardinal is and who the message is from. If the recipient ever wants to <strong>pause<\/strong>, <strong>opt out<\/strong>, or <strong>screen senders<\/strong>, they can visit <a href=\"\/pages\/received\" title=\"Received\">cardinal.love\/received<\/a> to manage their preferences easily and privately.<\/p>",
+            "text": "<p>We include a short, respectful note inside the envelope explaining what Cardinal is and who the message is from. If the recipient ever wants to <strong>pause</strong>, <strong>opt out</strong>, or <strong>screen senders</strong>, they can visit <a href=\"/pages/received\" title=\"Received\">cardinal.love/received</a> to manage their preferences easily and privately.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -146,14 +155,14 @@
         "text_X9AgV6": {
           "type": "text",
           "settings": {
-            "text": "<p>Grief doesn’t follow a schedule. But there are days that can feel especially heavy, and it matters when someone remembers.<\/p><p>Cardinal exists to help you show up in those moments, even from a distance. It’s not about grand gestures, it’s about one envelope, one message, arriving right on time.<\/p>"
+            "text": "<p>Grief doesn’t follow a schedule. But there are days that can feel especially heavy, and it matters when someone remembers.</p><p>Cardinal exists to help you show up in those moments, even from a distance. It’s not about grand gestures, it’s about one envelope, one message, arriving right on time.</p>"
           }
         },
         "button_Fn9icJ": {
           "type": "button",
           "settings": {
             "button_label": "Start your letter",
-            "button_link": "shopify:\/\/products\/personalized-note",
+            "button_link": "shopify://products/personalized-note",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
