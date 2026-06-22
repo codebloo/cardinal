@@ -73,14 +73,22 @@
         "text_9a4m8x": {
           "type": "text",
           "settings": {
-            "text": "<p>Cardinal is a service that helps people schedule handwritten letters to arrive on days that can be especially hard, anniversaries, holidays, birthdays, or quiet reminders of someone who’s gone.</p><p>Letters are sent by people who know you or knew your loved one. They chose a meaningful date and wrote the message themselves. Cardinal simply wrote it on quality stationery and mailed it on their behalf.</p><p>We never send anonymous letters. And we never send marketing or spam.</p>",
+            "text": "<p>Cardinal is a service that helps people schedule handwritten letters to arrive on days that can be especially hard, anniversaries, holidays, birthdays, or quiet reminders of someone who’s gone.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_DxKpEh": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Your address is not shared publicly </li><li>There is no cost to you</li><li>Opt out at any time</li></ul>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
         "heading_GEkkPX",
-        "text_9a4m8x"
+        "text_9a4m8x",
+        "text_DxKpEh"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -89,7 +97,7 @@
         "has_border": false,
         "full_width": false,
         "maintain_aspect_ratio": false,
-        "image": "shopify://shop_images/pexels-enginakyurt-1820511.jpg",
+        "image": "shopify://shop_images/pexels-majesticaljasmin-8506641.jpg",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -100,6 +108,45 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_mm8piJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NPr9A4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Notes from people who care",
+            "heading_size": "h1"
+          }
+        },
+        "text_CiQq6i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your notes will be delivered directly to your mailbox.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NPr9A4",
+        "text_CiQq6i"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Cardinal_Example_b7e5bef7-add0-4c1f-a1ea-2e528834abd8.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -172,6 +219,7 @@
     "main",
     "cb_video_banner_9kyigW",
     "image_with_text_VPeBrh",
+    "image_with_text_mm8piJ",
     "rich_text_htHdYM",
     "cb_optout_form_RR6rbh",
     "cb_rich_text_mpwBCx"
